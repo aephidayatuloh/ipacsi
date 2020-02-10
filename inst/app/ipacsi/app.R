@@ -162,7 +162,6 @@ library(ipacsi)
     observeEvent(input$submit, {
       output$quadrant <- renderUI({
         if(!is.null(ic())){
-
           tagList(
             bs4Card(width = 12, height = 420,
                   title = "Quadrant", status = "primary", closable = FALSE, collapsible = FALSE,
